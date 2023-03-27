@@ -1,0 +1,136 @@
+.pro{
+    background-image: url("https://www.apple.com/v/home/ay/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 600px;
+    
+}
+
+/* https://www.apple.com/v/home/ay/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_small_2x.jpg */
+
+.box1{
+    font-size: 60px;
+    padding-top: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.box2{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.text1{
+    color:#1285f0;
+    font-size: 22px;
+    cursor: pointer;
+    
+    
+}
+
+/* second image section */
+
+.post{
+    background-image: url("https://www.apple.com/v/home/ay/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_large.jpg");
+    height: 500px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 600px;
+}
+
+.p1{
+    font-size: 60px;
+    padding-top: 30px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    
+}
+.p2{
+    font-size: 30px;
+    margin-top: -10px;
+    cursor: pointer;
+    
+}
+/* third image section */
+.pre{
+background-image: url("https://www.apple.com/v/home/ay/images/heroes/apple-watch-series-8/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_large.jpg");
+background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 600px;
+}
+
+.watch{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    
+}
+
+/* grid section */
+
+.gridcol1{
+    background-image: url("https://www.apple.com/v/home/ay/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg");
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.gridcol2{
+    background-image: url("https://www.apple.com/v/home/ay/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_large.jpg");
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  
+}
+
+.gridcol3{
+    background-image: url("https://www.apple.com/v/home/ay/images/promos/homepod/promo_homepod__f7jnolq94m2y_large.jpg");
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  
+}
+
+.gridcol4{
+    background-image: url("https://www.apple.com/v/home/ay/images/promos/airpods-pro-campaign/promo__sw58lbodkmqq_large.jpg");
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  
+}
+
+.gridcol5{
+    background-image: url("https://www.apple.com/v/home/ay/images/promos/apple-fitness-plus-iphone/promo-apple-fitness-plus-iphone__bzeal882mv7m_large.jpg");
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  
+}
+
+.gridcol6{
+    background-image: url("https://www.apple.com/v/home/ay/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg");
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  
+}
+
+.ipad{
+    font-size: 40px;
+    margin-top: 45px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.mac{
+    font-size: 38px;
+    margin-top: 45px;
+    font-weight: bold;
+    cursor:pointer;
+    color: white;
+}
+
