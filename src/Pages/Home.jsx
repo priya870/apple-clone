@@ -11,7 +11,7 @@ const Home = () => {
         <Text p={"10px"} fontSize={"15px"}>
           Get $200–$600 in credit toward iPhone 14 or iPhone 14 Pro when you
           trade in iPhone 11 or higher.
-          <span style={{ color: "blue" }}>Shop iPhone</span>{" "}
+          <span style={{ color: "blue" }}>Shop iPhone</span>
         </Text>
       </Box>
       {/* first section */}
@@ -424,9 +424,26 @@ const Home = () => {
           </Box>
         </GridItem>
       </Grid>
-      <Box>
+      <Box border height={"500px"} width={"90%"} margin={"auto"} mt = {"12px"}>
         <Carousel />
       </Box>
+
+<Box w={"100%"} bg="#f5f5f7" mt={"-10px"}>
+  <Box w = {"80%"} margin = {"auto"}>
+    <Flex flexDirection={"column"}>
+  <Text fontSize={"13px"} pt = {"20px"} color = {"grey"} >
+       1.Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices.</Text>
+
+       <Text fontSize={"13px"} pt = {"10px"} color = {"grey"}>2. Apple Fitness+ requires iPhone 8 or later, or Apple Watch Series 3 or later paired with iPhone 6s or later. New subscribers only. $9.99/month after trial. Plan automatically renews until cancelled.</Text>
+
+       <Text fontSize={"13px"} pt = {"10px"} color = {"grey"}> A subscription is required for Apple Fitness+.</Text>
+
+       <Text fontSize={"13px"} pt = {"10px"} color = {"grey"}> Apple Fitness+ requires an iPhone 8 or later with iOS 16.1.</Text>
+
+       <Text fontSize={"13px"} pt = {"10px"} color = {"grey"} pb = {"30px"}>Apple Fitness+ requires an Apple Watch Series 3 or later. Available when paired with iPhone 6s or later with iOS 14.3 or later.</Text>
+       </Flex>
+</Box>
+       </Box>
     </Box>
   );
 };

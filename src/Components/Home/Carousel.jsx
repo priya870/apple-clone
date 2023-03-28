@@ -3,10 +3,10 @@ import React, { useEffect, useState } from "react";
 
 const slides = [
     {
-        img: "https://is5-ssl.mzstatic.com/image/thumb/l1GWYR-J4UvmK7849F472A/1250x703.jpg",
+        img: "https://is3-ssl.mzstatic.com/image/thumb/qxFrviRA_c3vX8rbFyv7jQ/980x551.jpg",
       },
       {
-        img: "https://is5-ssl.mzstatic.com/image/thumb/lgskq6n1xkUI5DOyA5tWWQ/1250x703.jpg",
+        img: "https://is1-ssl.mzstatic.com/image/thumb/qL-yBoKCFztx-kDyvIXlHw/980x551.jpg",
       },
       {
         img: "https://is5-ssl.mzstatic.com/image/thumb/BG3rKYXaPe9KkpZOZUjj_w/1250x703.jpg",
@@ -65,11 +65,11 @@ const Carousel = () => {
     return (
       <>
         <Flex
-          w="full"
-          mt={"1%"}
-          bg="#edf3f8"
+        //   w="full"
+        //   mt={"1%"}
+        //   bg="#edf3f8"
           _dark={{
-            bg: "#3e3e3e",
+            // bg: "#3e3e3e",
           }}
           alignItems="center"
           justifyContent="center"
@@ -83,6 +83,7 @@ const Carousel = () => {
                     alt="carousel image"
                     boxSize="full"
                     backgroundSize="cover"
+                    height="70%"
                   />
                 </Box>
               ))}
