@@ -2,6 +2,7 @@ import { Box, Flex, Text } from "@chakra-ui/react";
 import React from "react";
 import { BsApple } from "react-icons/bs";
 import { BsSearch, BsBag } from "react-icons/bs";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     // <div>Navbar</div>
@@ -9,7 +10,7 @@ const Navbar = () => {
       <Flex justifyContent={"center"} alignItems="center" gap="2%">
         <BsApple />
 
-        <Text>Store</Text>
+        <Link to={"/store"}><Text>Store</Text></Link>
         <Text>Mac</Text>
         <Text>iPad</Text>
         <Text>iPhone</Text>

@@ -212,8 +212,8 @@ const Footer = () => {
           </Text>
         </Box>
       </Flex>
-
-      <Text ml={"-430px"} fontSize={"14px"}>
+<Box w = {"80%"} margin = {"auto"}>
+      <Text fontSize={"14px"}>
         More ways to shop:
         <span style={{ color: "blue" }}>
           {" "}
@@ -221,11 +221,12 @@ const Footer = () => {
         </span>{" "}
         near you. Or call 1-800-MY-APPLE.
       </Text>
-      <Text ml={"-300px"} fontSize={"14px"} mt={"12px"} pb={"40px"}>
+      <Text fontSize={"14px"} mt={"12px"} pb={"40px"}>
         Copyright <span style={{ color: "blue" }}> © </span>2023{" "}
         <span style={{ color: "blue" }}>Apple Inc </span>. All rights reserved.
         Privacy Policy | Terms of Use | Sales and Refunds | Legal Site Map
       </Text>
+      </Box>
     </Box>
   );
 };

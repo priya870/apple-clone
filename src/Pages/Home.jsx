@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <Box>
       <Box>
-        <Text p={"10px"} fontSize={"15px"}>
+        <Text p={"10px"} fontSize={"15px"} textAlign = {"center"}>
           Get $200–$600 in credit toward iPhone 14 or iPhone 14 Pro when you
           trade in iPhone 11 or higher.
           <span style={{ color: "blue" }}>Shop iPhone</span>
@@ -16,8 +16,8 @@ const Home = () => {
       </Box>
       {/* first section */}
       <Box className={styles.pro}>
-        <Text className={styles.box1}>iPhone 14 Pro</Text>
-        <Text className={styles.box2}>Pro. Beyond.</Text>
+        <Text className={styles.box1}  textAlign = {"center"}>iPhone 14 Pro</Text>
+        <Text className={styles.box2}  textAlign = {"center"}>Pro. Beyond.</Text>
         <Box w={"18%"} m={"auto"}>
           <Flex justifyContent={"space-between"}>
             <Box w={"70%"} margin={"auto"}>
@@ -53,9 +53,9 @@ const Home = () => {
       {/* second image section */}
 
       <Box className={styles.post}>
-        <Text className={styles.p1}> iPhone 14</Text>
-        <Text className={styles.p2}>Two great sizes.</Text>
-        <Text className={styles.p2}>Now with a splash of yelllow. </Text>
+        <Text className={styles.p1}  textAlign = {"center"}> iPhone 14</Text>
+        <Text className={styles.p2}  textAlign = {"center"}>Two great sizes.</Text>
+        <Text className={styles.p2}  textAlign = {"center"}>Now with a splash of yelllow. </Text>
         <Box w={"18%"} m={"auto"}>
           <Flex justifyContent={"space-between"}>
             <Box w={"70%"} margin={"auto"}>
@@ -99,10 +99,10 @@ const Home = () => {
             <Text>WATCH</Text>
           </Flex>
         </box>
-        <Text color={"red"} fontSize={"20px"} letterSpacing={"2px"} ml={"22px"}>
+        <Text color={"red"} fontSize={"20px"} letterSpacing={"2px"}  textAlign = {"center"}>
           SERIES 8
         </Text>
-        <Text fontSize={"30px"} color="white">
+        <Text fontSize={"30px"} color="white"  textAlign = {"center"}>
           A healthy leap ahead
         </Text>
 
@@ -147,10 +147,10 @@ const Home = () => {
         marginTop={"10px"}
       >
         <GridItem height={"550px"} className={styles.gridcol1}>
-          <Text className={styles.ipad} fontSize={"35px"}>
+          <Text className={styles.ipad} fontSize={"35px"}  textAlign = {"center"}>
             iPad
           </Text>
-          <Text fontSize={"23px"} cursor={"pointer"}>
+          <Text fontSize={"23px"} cursor={"pointer"}  textAlign = {"center"}>
             Lovable. Drwable. Magical
           </Text>
           <Box w={"28%"} m={"auto"}>
@@ -190,8 +190,8 @@ const Home = () => {
           </Box>
         </GridItem>
         <GridItem height={"550px"} className={styles.gridcol2}>
-          <Text className={styles.mac}>MacBook Pro</Text>
-          <Text color={"white"} fontSize={"22px"}>
+          <Text className={styles.mac}  textAlign = {"center"}>MacBook Pro</Text>
+          <Text color={"white"} fontSize={"22px"}  textAlign = {"center"}>
             Surcharged by M2 Pro and M2 Max
           </Text>
           <Box w={"28%"} m={"auto"}>
@@ -231,10 +231,10 @@ const Home = () => {
           </Box>
         </GridItem>
         <GridItem height={"550px"} className={styles.gridcol3}>
-          <Text className={styles.ipad} color={"white"} fontSize={"35px"}>
+          <Text className={styles.ipad} color={"white"} fontSize={"35px"}  textAlign = {"center"}>
             HomePod
           </Text>
-          <Text fontSize={"20px"} cursor={"pointer"} color={"white"}>
+          <Text fontSize={"20px"} cursor={"pointer"} color={"white"} textAlign = {"center"}>
             Profound Sound.
           </Text>
           <Box w={"28%"} m={"auto"}>
@@ -275,13 +275,13 @@ const Home = () => {
         </GridItem>
 
         <GridItem height={"550px"} className={styles.gridcol4}>
-          <Text className={styles.ipad} fontSize={"35px"}>
+          <Text className={styles.ipad} fontSize={"35px"}  textAlign = {"center"}>
             AirPods Pro
           </Text>
-          <Text fontSize={"23px"} cursor={"pointer"}>
+          <Text fontSize={"23px"} cursor={"pointer"}  textAlign = {"center"}>
             Upto 2x more
           </Text>
-          <Text fontSize={"23px"} cursor={"pointer"}>
+          <Text fontSize={"23px"} cursor={"pointer"}  textAlign = {"center"}>
             Active Noise Cancellation.
           </Text>
           <Box w={"28%"} m={"auto"}>
@@ -340,8 +340,8 @@ const Home = () => {
               <Text color={"black"}>Fitness+</Text>
             </Flex>
           </box>
-          <Text fontSize={"20px"}>Welcome to the year of you.</Text>
-          <Text fontSize={"20px"}>Now all you need is iPhone.</Text>
+          <Text fontSize={"20px"}  textAlign = {"center"}>Welcome to the year of you.</Text>
+          <Text fontSize={"20px"}  textAlign = {"center"}>Now all you need is iPhone.</Text>
           <Box w={"36%"} m={"auto"}>
             <Flex justifyContent={"space-between"}>
               <Box w={"80%"} margin={"auto"}>
@@ -386,8 +386,8 @@ const Home = () => {
               <Text color={"black"}>Card</Text>
             </Flex>
           </box>
-          <Text fontSize={"20px"}>Get upto 3% Daily Cash back</Text>
-          <Text fontSize={"20px"}>with every purchase</Text>
+          <Text fontSize={"20px"}  textAlign = {"center"}>Get upto 3% Daily Cash back</Text>
+          <Text fontSize={"20px"}  textAlign = {"center"}>with every purchase</Text>
           <Box w={"36%"} m={"auto"}>
             <Flex justifyContent={"space-between"}>
               <Box w={"80%"} margin={"auto"}>
@@ -440,7 +440,14 @@ const Home = () => {
 
        <Text fontSize={"13px"} pt = {"10px"} color = {"grey"}> Apple Fitness+ requires an iPhone 8 or later with iOS 16.1.</Text>
 
-       <Text fontSize={"13px"} pt = {"10px"} color = {"grey"} pb = {"30px"}>Apple Fitness+ requires an Apple Watch Series 3 or later. Available when paired with iPhone 6s or later with iOS 14.3 or later.</Text>
+       <Text fontSize={"13px"} pt = {"10px"} color = {"grey"}>Apple Fitness+ requires an Apple Watch Series 3 or later. Available when paired with iPhone 6s or later with iOS 14.3 or later.</Text>
+       
+       <Text fontSize={"13px"} pt = {"10px"} color = {"grey"}>Fitness app on Apple TV requires tvOS 14.3 or later.</Text>
+       
+       <Text fontSize={"13px"} color = {"grey"} pt = {"10px"}>To get the newest features, make sure your devices are running the latest software version.</Text>
+       
+       <Text fontSize={"13px"}color = {"grey"} pt = {"10px"} pb = {"30px"}>Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.</Text>
+
        </Flex>
 </Box>
        </Box>

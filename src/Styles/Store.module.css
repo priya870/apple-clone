@@ -1,0 +1,29 @@
+.main_box{
+    background-color:#f5f5f7 
+}
+
+
+
+.special{
+    background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-specialist-help-202211_GEO_EMEA?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1671226469283");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 600px;
+}
+
+.device_img1{
+    background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-25-apps-202108?wid=480&hei=240&fmt=p-jpg&qlt=95&.v=1626223748000");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+}
+
+.device_img2{
+    background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-25-genius-202108?wid=480&hei=240&fmt=p-jpg&qlt=95&.v=1626384443000");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+}
