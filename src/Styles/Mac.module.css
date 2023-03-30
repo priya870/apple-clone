@@ -1,0 +1,58 @@
+
+.macmini{
+    height:650px;
+    background-image: url("https://www.apple.com/v/mac/home/bs/images/overview/hero/mac_mini__d3310qb7lt6q_large.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+
+.minitext{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.behindmac{
+    height:600px;
+    background-image: url("https://www.apple.com/v/mac/home/bs/images/overview/skywalker-btm/btm_tile__foyxdms85eum_large.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+}
+
+.behindtext{
+    color: white;
+   
+}
+
+.iconimage{
+    height:120px;
+    background-image: url('https://www.apple.com/v/mac/home/bs/images/overview/buystrip/icon-delivery__cthkmrp24qoi_large.png');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    /* background-size: cover;  */
+
+}
+
+
+.iconimage2{
+    height:65px;
+    background-image: url('https://www.apple.com/in/global/includes/buystrip/images/ways-to-buy/icon_large.svg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    /* background-size: cover;  */
+
+}
+
+.iconimage3{
+    height:65px;
+    background-image: url('https://www.apple.com/v/mac/home/bs/images/overview/buystrip/icon-help__cwmazkux9uaa_large.svg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    /* background-size: cover;  */
+
+}

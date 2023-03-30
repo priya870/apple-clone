@@ -11,7 +11,7 @@ const Navbar = () => {
         <BsApple />
 
         <Link to={"/store"}><Text>Store</Text></Link>
-        <Text>Mac</Text>
+        <Link to = {"/mac"}><Text>Mac</Text></Link>
         <Text>iPad</Text>
         <Text>iPhone</Text>
         <Text>Watch</Text>
