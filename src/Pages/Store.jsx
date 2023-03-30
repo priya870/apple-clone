@@ -8,6 +8,8 @@ import Carousel3 from "../Components/Store/Carousel3";
 import Carousel4 from "../Components/Store/Carousel4";
 import Carousel5 from "../Components/Store/Carousel5";
 import Specialist from "../Components/Store/Specialist";
+import Stories from "../Components/Store/Stories";
+import StoreFooter from "../Components/Store/StoreFooter";
 
 const Store = () => {
   return (
@@ -44,6 +46,15 @@ const Store = () => {
     
         <Text fontSize={"30px"} marginLeft= {"180px"} fontWeight= {600} mt = "50px" >The Apple experience.<span style = {{color:"grey"}}> Do even more with Apple products and services.</span></Text>
         <Carousel5/>
+
+        
+        <Text fontSize={"30px"} marginLeft= {"180px"} fontWeight= {600} mt = "50px" >Special stores.<span style = {{color:"grey"}}> Exclusive savings for students and educators.</span></Text>
+
+        <Stories/>
+
+        
+          <StoreFooter/>
+        
 
     </Box>
   );
