@@ -3,6 +3,9 @@ import { Route, Routes } from 'react-router-dom'
 import Home from '../Pages/Home'
 import Store from '../Pages/Store'
 import Mac from '../Pages/Mac'
+import Login from '../Pages/Login'
+import Register from '../Pages/Register'
+
 
 
 const AllRoutes = () => {
@@ -11,6 +14,9 @@ const AllRoutes = () => {
         <Route path='/' element={<Home />}/>
         <Route path='/store' element={<Store />}/>
         <Route path = '/mac' element = {<Mac/>}/>
+        <Route path = '/login' element = {<Login/>}/>
+        <Route path = '/register' element = {<Register/>}/>
+
         
     </Routes>
   )
