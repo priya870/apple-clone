@@ -137,7 +137,7 @@ const Mac_nav = () => {
         </Flex>
         
       </Box>
-      <Box p = {"10px"} bgColor = {"#f5f5f7"}>
+      <Box p = {"10px"} bgColor = {"#f5f5f7"}  _hover={{ backgroundColor: "blue", color: "white" }}>
       <Text textAlign={"center"} fontSize = {"13px"}>Get 3- or 6-month No Cost EMI on selected Mac models from most leading banks.‡<span style = {{color:"blue"}}>Shop Mac </span> </Text></Box>
     </Box>
   );

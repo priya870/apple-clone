@@ -17,7 +17,8 @@ const Navbar = () => {
         <Link to={"/mac"}>
           <Text>Mac</Text>
         </Link>
-        <Text>iPad</Text>
+        <Link to = {"/ipad"}>
+        <Text>iPad</Text></Link>
         <Text>iPhone</Text>
         <Text>Watch</Text>
         <Text>AirPods</Text>
